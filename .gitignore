@@ -1,0 +1,12 @@
+bin/
+obj/
+
+# No compiled binaries in the repo — build outputs are reproduced from source and the
+# packaged zip goes to Thunderstore. This matches upstream's own convention
+# (Goldenrevolver/QuickStackStore gitignores QuickStackStore.dll and ships no DLLs).
+*.dll
+*.zip
+
+# Superseded two-DLL solution, kept on disk as a recovery copy but not published.
+# It also holds Goldenrevolver's stock and patched binaries, which are not ours to publish.
+quickstackstore-valheim1-compat/v1-two-dll/

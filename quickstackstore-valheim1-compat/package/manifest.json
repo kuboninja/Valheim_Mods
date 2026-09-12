@@ -1,0 +1,10 @@
+{
+  "name": "QuickStackStore_Valheim1_Compat",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/kuboninja/Valheim_Mods",
+  "description": "Compatibility patch letting Quick Stack - Store - Sort - Trash - Restock 1.4.13 run on Valheim 1.0. Installs the official mod as a dependency; redistributes none of it.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350",
+    "Goldenrevolver-Quick_Stack_Store_Sort_Trash_Restock-1.4.13"
+  ]
+}
